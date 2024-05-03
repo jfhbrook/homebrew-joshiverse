@@ -5,9 +5,9 @@ class Cronkite < Formula
   homepage "https://github.com/jfhbrook/public/tree/main/old-memes/cronkite"
   url "https://registry.npmjs.org/@jfhbrook/cronkite/-/cronkite-1.0.0.tgz"
   sha256 "7422ed2590b55da14dc21c6107506af5bb9df1bea631ced94c6d39a851c52a41"
-  license "MIT"
+  license "Apache-2.0"
 
-  depends_on "Apache-2.0"
+  depends_on ""
 
   def install
     system "npm", "install", *Language::Node.std_npm_install_args(libexec)
