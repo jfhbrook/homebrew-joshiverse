@@ -4,7 +4,7 @@ tap := "jfhbrook/joshiverse"
 
 # Create a new formula.
 create *args:
-  brew create --tap '{{ tap }}' {{args}}
+  brew create --tap '{{ tap }}' {{ args }}
 
 # Create a new formula from an NPM package.
 create-npm package:
