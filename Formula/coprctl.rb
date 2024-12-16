@@ -1,4 +1,4 @@
-class CoprCtl < Formula
+class Coprctl < Formula
   desc "IaC for COPR"
   homepage "https://github.com/jfhbrook/public/tree/main/coprctl"
   url "https://github.com/jfhbrook/public/releases/download/coprctl-0.3.0-1/coprctl-0.3.0.tar.gz"
