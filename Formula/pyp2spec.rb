@@ -54,11 +54,6 @@ class Pyp2spec < Formula
     sha256 "c228a6dc5e932d346bc5739379109d49e8853dd8223571c7c5b55260edc0b97f"
   end
 
-  resource "pyp2spec" do
-    url "https://files.pythonhosted.org/packages/ba/16/d3bd5f08386e61f99e84d727d0114f9b8d01bb05d45913761ef6f1ba890d/pyp2spec-0.11.1.tar.gz"
-    sha256 "ad51f7a88452e7b80f7f70896c25dcaf5420da369344619727e9457c9ccfbffe"
-  end
-
   resource "requests" do
     url "https://files.pythonhosted.org/packages/63/70/2bf7780ad2d390a8d301ad0b550f1581eadbd9a20f896afe06353c2a2913/requests-2.32.3.tar.gz"
     sha256 "55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760"
