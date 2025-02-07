@@ -9,3 +9,7 @@ create *args:
 # Create a new formula from an NPM package.
 create-npm package:
   just create --node "$(npm info '{{ package }}' --json | jq -r .dist.tarball)" --set-name "$(npm info '{{ package }}' --json | jq -r .name)" --set-license "$(npm info '{{ package }}' --json | jq -r .license)"
+
+# Create a new formula from a PyPI package.
+create-pypi tarball_url:
+  just create --python '{{ tarball_url }}'
